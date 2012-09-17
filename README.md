@@ -1,6 +1,6 @@
 # Symbolizify
 
-TODO: Write a gem description
+Converts the given string to a symbol-style symbol.
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+"business_as_usual".symbolizify # => :business_as_usual
+"Business Model 1".symbolizify  # => :business_model_1
+"Business as usual".symbolizify # => :business_as_usual
+```
 
 ## Contributing
 
