@@ -5,7 +5,7 @@ Converts the given string to a symbol-style symbol.
 This is intended to be a kind of inverse of `#humanize`, but a little more robust than [dehumanize](https://github.com/AndyObtiva/dehumanize). This is a strong symbolizer, converting hyphens, non-standard characters, spaces, camelcase, etc. to underscored strings. The main inspiration for this came after finding that `#dehumanize` did not support dehumanizing strings containing numbers, e.g.
 
 ```ruby
-"Abstract Object 1".dehumanize # => "abstract_object1" rather than "abstract_object_1"
+"Abstract Object 1".dehumanize # => "abstract_object1", not "abstract_object_1"
 ```
 
 In fact, `dehumanize` was the inspiration, and the overall design of the gem was inspired by this prior art.
@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-Call symbolizify on any string to turn it into a symbol-style string! Removes non-word/non-digit characters (except for ! and ? if it's at the end of the string), reduces everything to lowercase with underscores separating things.
+Call symbolizify on any string to turn it into a symbol-style string! Removes non-word/non-digit characters (except for ! and ? if it's at the end of the string), reduces everything to lowercase with underscores separating things, e.g.
 
 ```ruby
 'Personal Phone'.symbolizify            # => 'personal_phone',
