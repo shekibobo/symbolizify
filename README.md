@@ -17,7 +17,7 @@ The name `symbolizify` was chosen in order to avoid naming collisions or confusi
 
 Add this line to your application's Gemfile:
 
-    gem 'symbolizify', '>= 0.1.0'
+    gem 'symbolizify', '>= 0.2.0'
 
 And then execute:
 
