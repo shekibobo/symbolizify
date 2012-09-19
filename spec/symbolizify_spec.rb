@@ -18,4 +18,12 @@ describe String do
       end
     end
   end
+
+  describe "#symbolizify!" do
+    it "should modify the string in place" do
+      string = "Gangnam Style"
+      string.symbolizify!
+      string.should eq "gangnam_style"
+    end
+  end
 end

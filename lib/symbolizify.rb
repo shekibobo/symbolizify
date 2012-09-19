@@ -9,6 +9,10 @@ end
 
 class String
   def symbolizify
-    ActiveSupport::Inflector.symbolizify(self)
+    dup.symbolizify!
+  end
+
+  def symbolizify!
+    self.replace ActiveSupport::Inflector.symbolizify(self)
   end
 end
