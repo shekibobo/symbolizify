@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Joshua Kovach"]
   gem.email         = ["kovach.jc@gmail.com"]
   gem.description   = %q{Converts any string into a symbol-style symbol.}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.summary       = %q{Adds a method `#symbolizify` on ActiveSupport::Inflector and String which converts a string into a symbol-style string.}
   gem.homepage      = "https://www.github.com/shekibobo/symbolizify"
 
   gem.files         = `git ls-files`.split($/)
