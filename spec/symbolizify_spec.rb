@@ -17,6 +17,12 @@ describe String do
         original.symbolizify.should eq symbolizified
       end
     end
+
+    it "should return a copy of the original string" do
+      original = original_copy = "I don't know what I was expecting"
+      original.symbolizify
+      original.should eq original_copy
+    end
   end
 
   describe "#symbolizify!" do
