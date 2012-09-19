@@ -14,7 +14,7 @@ In fact, `dehumanize` was the inspiration, and the overall design of the gem was
 
 Add this line to your application's Gemfile:
 
-    gem 'symbolizify'
+    gem 'symbolizify', '>= 0.1.0'
 
 And then execute:
 
