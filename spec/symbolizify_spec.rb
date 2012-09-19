@@ -10,7 +10,8 @@ describe String do
       'Who is _why?'   => 'who_is_why?',
       'Person 1'       => 'person_1',
       'Personel! #231' => 'personel_231',
-      'Shekibobo is great!' => 'shekibobo_is_great!'
+      'Shekibobo is great!'       => 'shekibobo_is_great!',
+      'test.subject@example.com'  => 'test_subject_example_com'
     }.each do |original, symbolizified|
       it "should turn '#{original}' to '#{symbolizified}'" do
         original.symbolizify.should eq symbolizified
