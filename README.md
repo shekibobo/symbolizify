@@ -1,7 +1,4 @@
-# Symbolizify
-
-[![Build Status](https://secure.travis-ci.org/shekibobo/symbolizify.png)](http://travis-ci.org/shekibobo/symbolizify)
-
+# Symbolizify [![Build Status](https://secure.travis-ci.org/shekibobo/symbolizify.png)](http://travis-ci.org/shekibobo/symbolizify) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/shekibobo/symbolizify)
 Converts the given string to a symbol-style symbol.
 
 Adds `ActiveSupport::Inflectors#symbolizify`, `String#symbolizify!`, and `String#symbolizify`.
