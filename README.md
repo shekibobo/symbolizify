@@ -1,5 +1,7 @@
 # Symbolizify
 
+[![Build Status](https://secure.travis-ci.org/shekibobo/symbolizify.png)](http://travis-ci.org/shekibobo/symbolizify)
+
 Converts the given string to a symbol-style symbol.
 
 Adds `ActiveSupport::Inflectors#symbolizify`, `String#symbolizify!`, and `String#symbolizify`.
