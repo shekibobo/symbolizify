@@ -1,4 +1,7 @@
-# Symbolizify [![Build Status](https://secure.travis-ci.org/shekibobo/symbolizify.png)](http://travis-ci.org/shekibobo/symbolizify) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/shekibobo/symbolizify)
+# Symbolizify [![Gem Version](https://badge.fury.io/rb/symbolizify.png)](http://badge.fury.io/rb/symbolizify)
+
+[![Build Status](https://secure.travis-ci.org/shekibobo/symbolizify.png)](http://travis-ci.org/shekibobo/symbolizify) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/shekibobo/symbolizify)
+
 
 Converts the given string to a symbol-style string.
 
